@@ -41,9 +41,9 @@ export const StickyScroll = ({
   });
 
   const backgroundColors = [
-    "#0f172a", // slate-900
+    "#000000", // slate-900
     "#000000", // black
-    "#171717", // neutral-900
+    "#000000", // neutral-900
   ];
 
   const linearGradients = useMemo(() => [
