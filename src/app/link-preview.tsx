@@ -44,7 +44,7 @@ export function LinkPreviewDemo() {
           {/* Title */}
           <h2 className="text-3xl font-bold text-white mb-2">Connect With Me</h2>
           <p className="text-gray-400 text-center max-w-2xl">
-            Feel free to reach out through any of these platforms. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            Feel free to reach out through any of these platforms. I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
           </p>
 
           {/* Social Links */}
