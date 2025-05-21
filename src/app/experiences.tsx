@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
-
+import Image from "next/image";
 
 const content = [
   {
@@ -10,13 +10,14 @@ const content = [
       "Certified in building and managing websites with WordPress, including themes, plugins, and site optimization.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
-          src="/cert.png"
-          width={300}
-          height={300}
-          className="h-full w-full object-fill object-center"
-          alt="linear board demo"
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src="/cert.png"
+            alt="WordPress Certificate"
+            fill
+            className="object-fill object-center"
+          />
+        </div>
       </div>
     ),
   },
@@ -26,13 +27,14 @@ const content = [
       "Skilled in using Canva to design engaging digital course materials and visual content.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
-          src="/cert1.png"
-          width={300}
-          height={300}
-          className="h-full w-full object-fill object-center"
-          alt="linear board demo"
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src="/cert1.png"
+            alt="Canva Certificate"
+            fill
+            className="object-fill object-center"
+          />
+        </div>
       </div>
     ),
   },
@@ -42,29 +44,30 @@ const content = [
       "Certification for being the Best Capstone Project in CET Technofair 2025.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
-          src="/cert2.png"
-          width={300}
-          height={300}
-          className="h-full w-full object-fill object-center"
-          alt="linear board demo"
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src="/cert2.png"
+            alt="Technofair Certificate"
+            fill
+            className="object-fill object-center"
+          />
+        </div>
       </div>
     ),
   },
   {
     title: "",
-    description:
-      "",
+    description: "",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
-          src="/cert1.png"
-          width={300}
-          height={300}
-          className="h-full w-full object-fill object-center"
-          alt="linear board demo"
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src="/cert1.png"
+            alt="Certificate"
+            fill
+            className="object-fill object-center"
+          />
+        </div>
       </div>
     ),
   },
