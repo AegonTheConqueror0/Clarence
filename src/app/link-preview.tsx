@@ -26,7 +26,7 @@ export function LinkPreviewDemo() {
     },
     {
       name: "Email",
-      url: "mailto:your.email@example.com",
+      url: "mailto:clarencejames.lorejo@hcdc.edu.ph",
       icon: <FaEnvelope size={24} color="#ef4444" />,
       className: "hover:text-red-600",
     },
