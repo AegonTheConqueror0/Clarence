@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LinkPreview } from "@/components/ui/link-preview";
 import { FaFacebook, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import Image from "next/image";
 
 export function LinkPreviewDemo() {
   const socialLinks = [
