@@ -11,19 +11,12 @@ const content = [
       "Certified in building and managing websites with WordPress, including themes, plugins, and site optimization.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="relative h-full w-full rounded-lg overflow-hidden shadow-2xl"
-        >
-          <Image
-            src="/cert.png"
-            alt="WordPress Certificate"
-            fill
-            className="object-cover object-center hover:scale-105 transition-transform duration-300"
-          />
-        </motion.div>
+        <Image
+          src="/cert.png"
+          alt="WordPress Certificate"
+          fill
+          className="object-cover object-center hover:scale-105 transition-transform duration-300"
+        />
       </div>
     ),
   },
@@ -33,19 +26,12 @@ const content = [
       "Skilled in using Canva to design engaging digital course materials and visual content.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="relative h-full w-full rounded-lg overflow-hidden shadow-2xl"
-        >
-          <Image
-            src="/cert1.png"
-            alt="Canva Certificate"
-            fill
-            className="object-cover object-center hover:scale-105 transition-transform duration-300"
-          />
-        </motion.div>
+        <Image
+          src="/cert1.png"
+          alt="Canva Certificate"
+          fill
+          className="object-cover object-center hover:scale-105 transition-transform duration-300"
+        />
       </div>
     ),
   },
@@ -55,19 +41,12 @@ const content = [
       "Certification for being the Best Capstone Project in CET Technofair 2025.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="relative h-full w-full rounded-lg overflow-hidden shadow-2xl"
-        >
-          <Image
-            src="/cert2.png"
-            alt="Technofair Certificate"
-            fill
-            className="object-cover object-center hover:scale-105 transition-transform duration-300"
-          />
-        </motion.div>
+        <Image
+          src="/cert2.png"
+          alt="Technofair Certificate"
+          fill
+          className="object-cover object-center hover:scale-105 transition-transform duration-300"
+        />
       </div>
     ),
   },
@@ -77,19 +56,12 @@ const content = [
       "Certified in Python Machine Learning, demonstrating expertise in data analysis, predictive modeling, and implementing machine learning algorithms using Python libraries like scikit-learn, TensorFlow, and PyTorch.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="relative h-full w-full rounded-lg overflow-hidden shadow-2xl"
-        >
-          <Image
-            src="/cert3.jpg"
-            alt="Python Machine Learning Certificate"
-            fill
-            className="object-cover object-center hover:scale-105 transition-transform duration-300"
-          />
-        </motion.div>
+        <Image
+          src="/cert3.jpg"
+          alt="Python Machine Learning Certificate"
+          fill
+          className="object-cover object-center hover:scale-105 transition-transform duration-300"
+        />
       </div>
     ),
   },
@@ -99,19 +71,12 @@ const content = [
       "Certified in Web Analytics, showcasing proficiency in analyzing website traffic, user behavior, and implementing data-driven strategies using tools like Google Analytics, Adobe Analytics, and other web analytics platforms.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="relative h-full w-full rounded-lg overflow-hidden shadow-2xl"
-        >
-          <Image
-            src="/cert4.jpg"
-            alt="Web Analytics Certificate"
-            fill
-            className="object-cover object-center hover:scale-105 transition-transform duration-300"
-          />
-        </motion.div>
+        <Image
+          src="/cert4.jpg"
+          alt="Web Analytics Certificate"
+          fill
+          className="object-cover object-center hover:scale-105 transition-transform duration-300"
+        />
       </div>
     ),
   },
@@ -121,19 +86,12 @@ const content = [
       "Certified Adobe Photoshop Professional, demonstrating advanced skills in digital image editing, photo manipulation, graphic design, and creative visual content creation using industry-standard tools and techniques.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="relative h-full w-full rounded-lg overflow-hidden shadow-2xl"
-        >
-          <Image
-            src="/cert5.jpg"
-            alt="Adobe Photoshop Certificate"
-            fill
-            className="object-cover object-center hover:scale-105 transition-transform duration-300"
-          />
-        </motion.div>
+        <Image
+          src="/cert5.jpg"
+          alt="Adobe Photoshop Certificate"
+          fill
+          className="object-cover object-center hover:scale-105 transition-transform duration-300"
+        />
       </div>
     ),
   },
