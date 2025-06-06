@@ -43,7 +43,7 @@ const content = [
       <div className="flex h-full w-full items-center justify-center text-white">
         <Image
           src="/cert2.png"
-          alt="Technofair Certificate"
+          alt="Technofair 2025 Certificate"
           fill
           className="object-cover object-center hover:scale-105 transition-transform duration-300"
         />
