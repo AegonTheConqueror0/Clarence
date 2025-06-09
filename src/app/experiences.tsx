@@ -99,7 +99,7 @@ const content = [
 
 export function StickyScrollRevealDemo() {
   return (
-    <section className="w-full py-20 bg-black/40 backdrop-blur-sm">
+    <section id="experience" className="w-full py-20 bg-black/40 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

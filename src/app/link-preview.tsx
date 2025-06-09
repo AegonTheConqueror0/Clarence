@@ -33,7 +33,7 @@ export function LinkPreviewDemo() {
   ];
 
   return (
-    <footer className="w-full py-12 bg-black/40 backdrop-blur-sm">
+    <footer id="contact" className="w-full py-12 bg-black/40 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
