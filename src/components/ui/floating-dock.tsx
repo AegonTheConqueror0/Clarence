@@ -123,7 +123,6 @@ function IconContainer({
   mouseX,
   title,
   icon,
-  href,
   onClick,
 }: {
   mouseX: MotionValue;
