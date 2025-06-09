@@ -28,6 +28,17 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        
+        {/* Global CV Button - Visible on all pages */}
+        <div className="fixed bottom-6 right-6 z-50">
+          <a
+            href="/resume-ed.pdf"
+            download="Clarence_James_Lorejo_Resume.pdf"
+            className="inline-flex items-center px-6 py-4 text-base font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-blue-500 rounded-full shadow-2xl hover:from-blue-700 hover:to-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-opacity-50 transition-all duration-300 hover:scale-110 hover:shadow-blue-500/25"
+          >
+            📄 My CV
+          </a>
+        </div>
       </body>
     </html>
   );
